@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TechCamp</string>
+    <string name="some_text">Some text</string>
+    <string name="username">Username</string>
+    <string name="submit">submit</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="not_yet_a_member">not_yet_a_member</string>
+    <string name="login">login</string>
+    <string name="book_title">Book Title</string>
+    <string name="category">category</string>
+    <string name="description">description</string>
+    <string name="home">home</string>
+</resources>

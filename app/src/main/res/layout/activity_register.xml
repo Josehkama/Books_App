@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/reg_account"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/account" />
+
+
+    <EditText
+        android:id="@+id/reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reg_account"
+        android:layout_marginTop="10dp"
+        android:hint="@string/username"
+        android:textSize="@dimen/inputs" />
+
+
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:textSize="@dimen/inputs" />
+
+    <EditText
+        android:id="@+id/reg_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textSize="@dimen/inputs" />
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:textSize="@dimen/inputs" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/button_background"
+        android:text="@string/register"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/txt_already_have_an_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/already_have_an_account"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
